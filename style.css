@@ -1,67 +1,52 @@
+
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
   margin: 0;
   padding: 0;
+  background: linear-gradient(135deg, #f0f4f8, #d9e4f5);
   color: #333;
 }
 
-header {
+.main-header {
   background-color: #002b5c;
   color: white;
-  padding: 2rem 1rem;
+  padding: 1.5rem;
   text-align: center;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 2.2rem;
-}
-
-header p {
-  font-size: 1.1rem;
-  margin-top: 0.5rem;
-}
-
-nav {
-  margin-top: 1rem;
-}
-
-nav a {
-  margin: 0 10px;
+.main-header nav a {
   color: #ffc107;
+  margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
 }
 
 section {
-  padding: 2rem;
-  max-width: 900px;
+  max-width: 960px;
   margin: auto;
+  padding: 2rem;
 }
 
-.project {
+.project-card {
   background: white;
-  padding: 1rem 1.5rem;
   margin-bottom: 1.5rem;
-  border-left: 5px solid #0077cc;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
-}
-
-.project a {
-  color: #0077cc;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: square;
-  padding-left: 1.5rem;
-}
-
-footer {
-  text-align: center;
   padding: 1rem;
-  background: #eaeaea;
-  margin-top: 2rem;
+  display: flex;
+  border-left: 5px solid #0077cc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+  width: 150px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.project-info h3 {
+  margin-top: 0;
+}
+
+.contact {
+  text-align: center;
+  font-size: 1.1rem;
 }
